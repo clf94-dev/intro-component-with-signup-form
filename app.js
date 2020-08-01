@@ -80,5 +80,6 @@ function addError(el, mes, fieldName) {
     temp.classList.remove('hide');
     temp.textContent = fieldName + " " + mes;
     el.style.borderColor = 'red';
+    el.style.borderWidth = '2px';
     el.focus();
 }
