@@ -1,0 +1,84 @@
+$red:hsl(0, 100%, 74%);
+$green:hsl(154, 59%, 51%);
+$blue:hsl(248, 32%, 49%);
+$dark-blue:hsl(249, 10%, 26%);
+$grayish-blue:hsl(246, 25%, 77%);
+$font-family:"Poppins";
+$font-weight4:400;
+$font-weight5:500;
+$font-weight6:600;
+$font-weight7:700;
+body {
+    background-image: url(file:///F:/codigos%20atom/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    background-color: $red;
+    text-align: center;
+    padding: 10%;
+    .col-cont {
+        height: 100%;
+        .container {
+            h4 {
+                background-color: hsl(248, 32%, 49%);
+                border-color: hsl(248, 32%, 49%);
+                text-align: center;
+                font-size: 1rem;
+                color: white;
+                border-radius: 5px;
+                height: 50px;
+                width: 100%;
+                padding-top: 3%;
+            }
+            h5 {
+                font-size: 0.75rem;
+                strong {
+                    color: $red;
+                }
+            }
+            .signup-btn-free:hover,
+            .signup-btn-free {
+                margin: 5% auto 7% auto;
+                background-color: hsl(154, 59%, 51%);
+                border-color: hsl(154, 59%, 51%);
+            }
+            .card-body {
+                padding: 5% 7%;
+                border-radius: 20px;
+                input {
+                    margin: 3% auto 1% auto;
+                }
+            }
+        }
+    }
+    .text-cont {
+        padding-top: 15%;
+        h1 {
+            font-weight: $font-weight7;
+            font-size: 3rem;
+            padding-bottom: 5%;
+            line-height: 1.5;
+            color: white;
+            text-align: left !important;
+        }
+        h3 {
+            font-weight: $font-weight4;
+            font-size: 1.2rem;
+            padding-bottom: 5%;
+            line-height: 1.5;
+            color: white;
+            text-align: left !important;
+        }
+    }
+}
+
+
+/* ---------Validation --------*/
+
+.hide {
+    display: none;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    font-style: italic;
+}

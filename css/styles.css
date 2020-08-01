@@ -1,0 +1,80 @@
+body {
+  background-image: url(file:///F:/codigos%20atom/intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+  background-color: #ff7a7a;
+  text-align: center;
+  padding: 10%;
+}
+
+body .col-cont {
+  height: 100%;
+}
+
+body .col-cont .container h4 {
+  background-color: #6055a5;
+  border-color: #6055a5;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+  padding-top: 3%;
+}
+
+body .col-cont .container h5 {
+  font-size: 0.75rem;
+}
+
+body .col-cont .container h5 strong {
+  color: #ff7a7a;
+}
+
+body .col-cont .container .signup-btn-free:hover,
+body .col-cont .container .signup-btn-free {
+  margin: 5% auto 7% auto;
+  background-color: #38cc8c;
+  border-color: #38cc8c;
+}
+
+body .col-cont .container .card-body {
+  padding: 5% 7%;
+  border-radius: 20px;
+}
+
+body .col-cont .container .card-body input {
+  margin: 3% auto 1% auto;
+}
+
+body .text-cont {
+  padding-top: 15%;
+}
+
+body .text-cont h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  padding-bottom: 5%;
+  line-height: 1.5;
+  color: white;
+  text-align: left !important;
+}
+
+body .text-cont h3 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-bottom: 5%;
+  line-height: 1.5;
+  color: white;
+  text-align: left !important;
+}
+
+/* ---------Validation --------*/
+.hide {
+  display: none;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-style: italic;
+}
